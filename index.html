@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Futuro Começa com um Sonho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="img/logo.png" alt="Logo" class="hero__logo">
+    <h1 class="hero__title">O Futuro Começa com um Sonho</h1>
+    <p class="hero__subtitle">
+        Olá! Sejam muito bem-vindos ao nosso projeto, onde compartilhamos o que desejamos ser e o que nos motivou a fazer essas escolhas!
+    </p>
+  </header>
+
+  <section class="cards-section">
+    <h2>Conheça Nossos Futuros Brilhantes</h2>
+    <div class="cards">
+      <div class="card" data-name="Ana Silva" data-desc="Futura veterinária apaixonada por animais e natureza.">
+        <img src="" alt="Ana Silva">
+        <h3>Ana Silva</h3>
+        <p>Futura Veterinária</p>
+      </div>
+
+      <div class="card" data-name="Bruno Costa" data-desc="Futuro astronauta com o sonho de explorar o espaço.">
+        <img src="img/bruno.jpg" alt="Bruno Costa">
+        <h3>Bruno Costa</h3>
+        <p>Futuro Astronauta</p>
+      </div>
+
+      <div class="card" data-name="Carla Dias" data-desc="Futura chef inspirada pela gastronomia internacional.">
+        <img src="img/carla.jpg" alt="Carla Dias">
+        <h3>Carla Dias</h3>
+        <p>Futura Chef</p>
+      </div>
+
+      <div class="card" data-name="Daniel Souza" data-desc="Futuro músico que quer mudar o mundo com arte e som.">
+        <img src="img/daniel.jpg" alt="Daniel Souza">
+        <h3>Daniel Souza</h3>
+        <p>Futuro Músico</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal" id="profileModal">
+    <div class="modal__content">
+      <span class="modal__close">&times;</span>
+      <img id="modalImg" src="" alt="Foto do perfil" class="modal__img">
+      <h3 id="modalName"></h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
